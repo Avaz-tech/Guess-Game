@@ -21,3 +21,17 @@ int main()
         cin >> guess;
         guesCount++;  
     }
+    else{
+        outOfGuess = true;
+    }
+  }
+   
+   if(outOfGuess){
+    cout << "You lose!";
+   }
+   else{
+    cout << "You Win!";
+   }
+
+  return 0;
+}
